@@ -1,0 +1,15 @@
+.lista {
+    list-style: none;
+    margin-right: 80px;
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+.lista:hover {
+    transform: scale(1.2);
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

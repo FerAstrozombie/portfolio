@@ -1,0 +1,25 @@
+.sliderContainer {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: hidden;
+}
+.slider {
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+.item img{
+    width: 150px;
+    pointer-events: none;
+}
+.item {
+    background-color: rgba(255, 255, 255, .15);
+    width: 250px; 
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}

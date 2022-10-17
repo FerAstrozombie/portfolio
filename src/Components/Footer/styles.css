@@ -1,0 +1,13 @@
+.tamañoLogos {
+    width: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.tamañoLogos:hover{
+    transform: scale(1.2);
+}
+.footerFlex {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

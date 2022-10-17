@@ -46,3 +46,25 @@ span {
     text-shadow: 5px 5px black;
     text-align: center;
 }
+@media screen and (max-width: 480px){
+    .tamañoFoto {
+        width: 200px;
+    }
+    .titulo, .subtitulo {
+        font-size: 1.5rem;
+    }
+    .flexInicio{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    span {
+        font-size: 1.3rem;
+    }
+    .texto {
+        width: 300px;
+    }
+    .fotoPerfil {
+        margin-left: 0px;
+    }
+}

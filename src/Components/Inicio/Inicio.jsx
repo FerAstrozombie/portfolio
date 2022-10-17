@@ -1,6 +1,5 @@
 import "./styles.css"
 import Typed from "react-typed"
-import Slider from "../Slider/Slider"
 
 const Inicio = () => {
     return (
@@ -43,7 +42,6 @@ const Inicio = () => {
                 Termine todos los cursos con nota de 10, permitiendome entrar en el top 10 de alumnos de cada curso.
             </p>
         </div>
-        <Slider />
     </div>
     )
 }

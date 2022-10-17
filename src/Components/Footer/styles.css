@@ -11,3 +11,8 @@
     justify-content: center;
     margin-top: 50px;
 }
+@media screen and (max-width: 480px){
+    .footerFlex {
+        margin-left: 50px;
+    }
+}

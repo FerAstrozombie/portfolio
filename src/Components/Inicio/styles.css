@@ -46,6 +46,12 @@ span {
     text-shadow: 5px 5px black;
     text-align: center;
 }
+.flexEncabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 480px){
     .tamañoFoto {
         width: 200px;

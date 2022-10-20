@@ -2,7 +2,7 @@ import "./styles.css"
 
 const Footer = () => {
     return (
-    <div className="footerFlex">
+    <div className="footerFlex" id="footer">
         <a href="https://github.com/FerAstrozombie" target="_blank">
             <img className="tamañoLogos" src="../imagenes/logogithub.png" alt="" />
         </a>

@@ -1,11 +1,16 @@
 import "./styles.css"
 import Typed from "react-typed"
+import DescargarCv from "../DescargarCv/DescargarCv"
+import ScrollButton from "../ScrollButton/ScrollButton"
 
 const Inicio = () => {
     return (
     <div>
-        <h1 className="titulo">Fernando Lair</h1>
-        <h3 className="subtitulo">FrontEnd Developer</h3>
+        <div className="flexEncabezado">
+            <h1 className="titulo">Fernando Lair</h1>
+            <h3 className="subtitulo">FrontEnd Developer</h3>
+            <DescargarCv/>
+        </div>
         <div className="flexInicio">
             <div data-aos="flip-left" className="fotoPerfil">
                 <img className="tamañoFoto" src="../imagenes/fotoperfil2.svg" alt="" />
@@ -23,7 +28,7 @@ const Inicio = () => {
             />
             </div>
         </div>
-        <div className="flexText">
+        <div className="flexText" id="sobreMi">
             <p className="texto">
                 En el 2020 empece a estudiar por mi cuenta. Hice algunos cursos de introduccion a la programacion.
                 Hasta que me di cuenta que lo que realmente me gusta es el desarrollo web.
@@ -42,6 +47,7 @@ const Inicio = () => {
                 Termine todos los cursos con nota de 10, permitiendome entrar en el top 10 de alumnos de cada curso.
             </p>
         </div>
+        <ScrollButton/>
     </div>
     )
 }

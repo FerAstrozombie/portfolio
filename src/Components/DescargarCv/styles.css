@@ -1,0 +1,39 @@
+.link {
+    text-decoration: none;
+    color: black;
+}
+.botonCv{
+    min-width: 140px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    background: white;
+    z-index: 1;
+}
+.botonCv:hover:after{
+    width: 100%;
+    left: 0;
+}
+.botonCv:after{
+    border-radius: 30px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease;
+    background-color: #f7c41f;
+    right: 0;
+}
+.botonCv:active{
+    top: 2px;
+}

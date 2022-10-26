@@ -4,11 +4,11 @@
     justify-content: space-evenly;
     align-items: center;
 }
-img {
+.imagenCard {
     padding: 10px;
     width: 140px;
 }
-img:hover{
+.imagenCard:hover{
     transform: scale(1.2);
     transition: 1.5s;
 }

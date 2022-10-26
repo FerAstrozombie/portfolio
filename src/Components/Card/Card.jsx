@@ -8,7 +8,7 @@ const Card = () => {
             <h3 className="skills">Skills</h3>
             <div className="card">
                 {imagenes.map(image =>(                    
-                    <img src={image} alt=""></img>
+                    <img className="imagenCard" src={image} alt=""></img>
                 ))}
             </div>
         </div>

@@ -32,3 +32,18 @@ img:hover{
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 780px){
+    img {
+        width: 80px;
+    }
+    img:hover {
+        transform: none;
+    }
+    .cardContainer{
+        width: 300px;
+        height: 450px;
+    }
+    .skills{
+        padding-top: 5px;
+    }
+}

@@ -8,19 +8,61 @@
 .lista:hover {
     transform: scale(1.2);
 }
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 .anclas{
     text-decoration: none;
     color: white;
 }
-@media screen and (max-width: 480px){
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cabeceraBoton{
+    display: none;
+    color: white;
+    background-color: black;
+    border: none;
+}.cabeceraLista {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cabeceraSvg {
+    width: 2em;
+    height: 2em;
+}
+@media screen and (max-width: 790px){
     .lista {
-        margin-right: 20px;
-        font-size: 1rem;
+        margin-right: 50px;
+        font-size: 1.4rem;
         align-items: center;
+        padding: 10px;
+    }
+    .cabeceraBoton {
+        display: flex;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cabeceraNav {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 0vh;
+        opacity: 0;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+    .cabeceraNav.isActive{
+        height: 50vh;
+        opacity: 1;
+    }
+    .cabeceraLista{
+        flex-direction: column;
     }
 }

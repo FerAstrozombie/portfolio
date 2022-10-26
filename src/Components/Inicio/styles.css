@@ -52,7 +52,7 @@ span {
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 780px){
     .tamañoFoto {
         width: 200px;
     }

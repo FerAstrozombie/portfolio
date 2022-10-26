@@ -5,7 +5,7 @@ import imagenes from "../../exports/images"
 const Slider = () => {
     return (
         <motion.div className="sliderContainer">
-            <motion.div className="slider" drag = "x" dragConstraints = {{right : 50, left : -800}}>
+            <motion.div className="slider" drag = "x" dragConstraints = {{right : 50, left : -1100}}>
                 {imagenes.map(image =>(
                     <motion.div className="item">
                         <img src={image} alt=""></img>

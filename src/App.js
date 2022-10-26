@@ -1,5 +1,6 @@
 import './App.css';
 import Footer from './Components/Footer/Footer';
+import FormularioContacto from './Components/FormularioContacto/FormularioContacto';
 import Inicio from './Components/Inicio/Inicio';
 import NavBar from './Components/NavBar/NavBar';
 import Proyectos from './Components/Proyectos/Proyectos';
@@ -12,6 +13,7 @@ function App() {
       <Inicio />
       <Slider />
       <Proyectos />
+      <FormularioContacto />
       <Footer />      
     </div>
   );

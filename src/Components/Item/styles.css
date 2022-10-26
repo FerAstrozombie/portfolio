@@ -16,7 +16,7 @@ a {
     flex-direction: row;
     justify-content: space-around;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 780px){
     .gifs {
         width: 300px;
     }

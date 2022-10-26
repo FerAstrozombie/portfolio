@@ -1,0 +1,94 @@
+.flexForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    font-size: 2.8rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: 5px 5px black;
+}
+.textoError {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: 5px 5px black;
+}
+.botonEnviar{
+    min-width: 140px;
+    height: 40px;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    background: white;
+    z-index: 1;
+}
+.botonEnviar:hover:after{
+    width: 100%;
+    left: 0;
+}
+.botonEnviar:after{
+    border-radius: 30px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease;
+    background-color: #f7c41f;
+    right: 0;
+}
+.botonEnviar:active{
+    top: 2px;
+}
+form {
+    width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+}
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.botonera{
+    margin-left: 110px;
+}
+@media screen and (max-width: 780px){
+    form {
+        width: 300px;
+    }
+    .botonera{
+        margin-left: 55px;
+    }
+}

@@ -33,10 +33,10 @@
     justify-content: center;
 }
 @media screen and (max-width: 780px){
-    img {
+    .imagenCard {
         width: 80px;
     }
-    img:hover {
+    .imagenCard:hover {
         transform: none;
     }
     .cardContainer{

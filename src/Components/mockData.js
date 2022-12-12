@@ -29,6 +29,24 @@ const data = [
         gif : "/imagenes/TiendaGuitarras.gif",
         link : "https://tienda-de-guitarras.vercel.app/" ,
     },
+    {
+        id : "6",
+        nombre : "App clima realizada con ReactJs",
+        gif : "/imagenes/ClimaApp.gif",
+        link : "https://climacool.vercel.app/" ,
+    },
+    {
+        id : "7",
+        nombre : "Pokedex realizada con ReactJs",
+        gif : "/imagenes/Pokemon.gif",
+        link : "https://pokeapi1.vercel.app/" ,
+    },
+    {
+        id : "8",
+        nombre : "Juego ta-te-ti con ReactJs",
+        gif : "/imagenes/Ta-te-ti.gif",
+        link : "https://ta-te-ti-game.vercel.app/" ,
+    },
 ]
 
 export default data

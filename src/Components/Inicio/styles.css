@@ -1,0 +1,55 @@
+.tamañoFoto {
+    width: 300px;
+}
+.fotoPerfil {
+    margin-left: 50px;
+}
+span {
+    font-size: 2.8rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: 5px 5px black;
+}
+.flexInicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.parrafo{
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 80%;
+}
+.flexText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 5px 5px black;
+    max-width: 800px;;
+}
+@media screen and (max-width: 780px){
+    .tamañoFoto {
+        width: 200px;
+    }
+    .flexInicio{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    span {
+        font-size: 1.3rem;
+    }
+    .fotoPerfil {
+        margin-left: 0px;
+    }
+    .flexText{
+        margin-top: 20px;
+        text-shadow: none;
+    }
+    .parrafo{
+        font-size: 1rem;
+    }
+}

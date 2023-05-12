@@ -1,0 +1,59 @@
+.proyectosTitulo {
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    margin: 50px;
+}
+
+.gifs {
+    width: 500px;
+}
+
+.descripcion {
+    width: 400px;
+    text-align: justify;
+}
+
+.parrafoProyectos {
+    color: white;
+    text-align: justify;
+}
+
+.linksProyectos {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.botonDemo {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    background: #8a2be2;
+    border: 2px solid #8a2be2;
+    position: relative;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+}
+.botonDemo:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+    .gifs {
+        width: 300px;
+    }
+
+    .descripcion {
+        width: 250px;
+    }
+}

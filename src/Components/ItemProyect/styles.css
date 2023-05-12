@@ -1,0 +1,18 @@
+.flexProyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cursoTitulo{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 780px){
+    .flexProyectos{
+        grid-template-columns: 1fr;
+    }
+}

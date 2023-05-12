@@ -1,0 +1,80 @@
+.flexForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    font-size: 2.8rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: 5px 5px black;
+    margin-top: 50px;
+}
+.textoError {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: 5px 5px black;
+}
+#botonEnviar {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    background-color: #8a2be2;
+    border: 2px solid #8a2be2;
+    position: relative;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+}
+.botonEnviar:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.formClass {
+    width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.inputForm {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+}
+.textareaForm {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.botonera{
+    margin-left: 110px;
+}
+@media screen and (max-width: 580px){
+    .botonera{
+        margin-left: 55px;
+    }
+    .formClass{
+        width: 300px;
+    }
+    .titulo{
+        font-size: 2rem;
+    }
+}

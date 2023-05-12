@@ -1,0 +1,107 @@
+.lista {
+    list-style: none;
+    margin-right: 80px;
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: 5px 5px black;
+    padding-bottom: 4px;    
+}
+.listaDos{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.5rem;
+    color: white;
+}
+.listaDos:hover{
+    text-shadow: 5px 5px #8a2be2;
+}
+.lista3{
+    list-style: none;
+    margin-right: 60px;
+}
+.lista:hover {
+    border-bottom: 2px solid #8a2be2;
+    transition: ease;
+}
+.anclas{
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 3;
+    height: 60px;
+}
+.cabeceraBoton{
+    display: none;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+.cabeceraLista {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cabeceraSvg {
+    width: 2em;
+    height: 2em;
+}
+@media screen and (max-width: 1250px){
+    .lista {
+        margin-right: 50px;
+        font-size: 1.4rem;
+        align-items: center;
+        padding: 10px;
+    }
+    .lista:hover {
+        transform: scale(1.1);
+    }
+    .cabeceraBoton {
+        display: flex;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #8a2be2;
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+    }
+    .cabeceraNav {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 0vh;
+        opacity: 0;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+    .cabeceraNav.isActive{
+        height: 70vh;
+        opacity: 1;
+        background-color: black;
+        z-index: 9999 ;
+    }
+    .cabeceraLista{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .lista3{
+        margin-top: 20px;
+    }
+    .listaDos{
+        font-size: 1.4rem;
+    }
+    
+}

@@ -1,0 +1,31 @@
+.portal{
+    background-color: black;
+}
+.personalTwo{
+    height: 50px;
+    width: 50px;
+}
+.personalOne{
+    height: 50px;
+}
+@media screen and (max-width: 480px){
+    .portalDos{
+        width: 300px;
+        height: 300px;
+    }
+    #portalTres{
+        right: 10px;
+    }
+    #parrafoChat{
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+    }
+    .personalOne{
+        width: 70px;
+        height: 30px;
+    }
+    .personalTwo{
+        width: 30px;
+        height: 30px;
+    }
+}

@@ -9,7 +9,8 @@ import Proyectos from './Components/Proyectos/Proyectos';
 import Slider from "./Components/Slider/Slider";
 
 function App() {
-  
+  const screen = window.innerWidth
+  console.log(screen);
   return (
     <div className="App">
       <NavBar />

@@ -1,5 +1,5 @@
 .portal{
-    background-color: black;
+    background-color: #181818;
 }
 .personalTwo{
     height: 50px;
@@ -8,7 +8,20 @@
 .personalOne{
     height: 50px;
 }
-@media screen and (max-width: 480px){
+.calavera{
+    width: 70px;
+}
+.pregunta{
+    position: fixed;
+    bottom: 20%;
+    right: 8%;
+    font-size: 1.3rem;
+    background-color: #8a2be2;
+    padding: 10px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+}
+@media screen and (max-width: 780px){
     .portalDos{
         width: 300px;
         height: 300px;
@@ -28,5 +41,14 @@
     .personalTwo{
         width: 30px;
         height: 30px;
+    }
+    .calavera{
+        width: 30px;
+    }
+    .pregunta{
+        padding: 5px;
+        font-size: 1rem;
+        bottom: 17%;
+        right: 14%;
     }
 }

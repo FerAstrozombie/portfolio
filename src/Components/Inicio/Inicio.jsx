@@ -10,7 +10,7 @@ const Inicio = () => {
                 </div>
                 <div className="flexText">
                     <p className="parrafo">
-                        Hola, soy <span> Fernando Lair </span> Desarrollador Web Fullstack M.E.R.N.
+                        Hola, soy <span> {"<Fernando Lair />"} </span> Desarrollador Web Fullstack M.E.R.N.
                     </p>
                     <p className="parrafo">
                         ¿ Que es M.E.R.N ?

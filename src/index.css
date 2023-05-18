@@ -9,8 +9,9 @@ body {
 }
 
 body {
-    background-image: url(/imagenes/fondo.jpg);
+    /* background-image: url(/imagenes/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: black;
 }

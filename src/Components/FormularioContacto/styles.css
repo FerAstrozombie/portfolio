@@ -8,14 +8,12 @@
     font-size: 2.8rem;
     color: white;
     font-weight: 600;
-    text-shadow: 5px 5px black;
     margin-top: 50px;
 }
 .textoError {
     font-size: 1.2rem;
     color: white;
     font-weight: 600;
-    text-shadow: 5px 5px black;
 }
 #botonEnviar {
     color: rgba(255, 255, 255, 0.9);

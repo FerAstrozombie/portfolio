@@ -3,7 +3,6 @@
     margin-right: 80px;
     font-size: 1.4rem;
     color: white;
-    text-shadow: 5px 5px black;
     padding-bottom: 4px;    
 }
 .listaDos{
@@ -20,8 +19,8 @@
     margin-right: 60px;
 }
 .lista:hover {
-    border-bottom: 2px solid #8a2be2;
     transition: ease;
+    text-shadow: 5px 5px #8a2be2;
 }
 .anclas{
     text-decoration: none;
@@ -35,7 +34,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: black;
+    background-color: #181818;
     z-index: 3;
     height: 60px;
 }
@@ -90,7 +89,7 @@
     .cabeceraNav.isActive{
         height: 70vh;
         opacity: 1;
-        background-color: black;
+        background-color: #181818;
         z-index: 9999 ;
     }
     .cabeceraLista{

@@ -77,17 +77,20 @@ const Chat = () => {
     return createPortal(
         <div id='portalTres' className='fixed bottom-8 right-8 bg-transparent'>
             {isCollapsed ? (
-                <button
-                className='rounded-full bg-purple-800 p-2 items-center portal'
-                    onClick={() => toogleCollapsed(false)}
-                >
-                    ※ Chat
-                </button>
+                <>
+                    <span className='pregunta'> Hazme una pregunta </span>
+                    <button
+                        className='rounded-full bg-purple-800 p-2 items-center portal'
+                        onClick={() => toogleCollapsed(false)}
+                    >
+                        <img className='calavera' src="/public/imagenes/calavera.svg" alt="calavera" />
+                    </button>
+                </>
             ) : (
                 <div className='portal'>
                     <button
-                    className='rounded-full bg-purple-800 absolute -left-4 -top-4 w-8 h-8 items-center' 
-                    onClick={() => toogleCollapsed(true)}
+                        className='rounded-full bg-purple-800 absolute -left-4 -top-4 w-8 h-8 items-center'
+                        onClick={() => toogleCollapsed(true)}
                     >
                         ×
                     </button>
@@ -108,7 +111,7 @@ const Chat = () => {
                                 onChange={(event) => setQuestion(event.target.value)}
                                 className="rounded rounded-r-none flex-1 border border-gray-400 personalOne"
                                 type="text"
-                                placeholder="Quien sos?"
+                                placeholder="Hazme una pregunta"
                                 name="questions"
                             />
                             <button
@@ -116,8 +119,8 @@ const Chat = () => {
                                 className={`bg-purple-800 rounded-lg rounded-l-none ${loading ? "bg-purple-500" : "bg-purple-800 personalTwo"} `}
                                 type="submit"
                                 autoFocus
-                                >
-                                    ↩
+                            >
+                                ↩
                             </button>
                         </form>
                     </div>

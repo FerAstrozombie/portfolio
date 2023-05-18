@@ -83,7 +83,7 @@ const Chat = () => {
                         className='rounded-full bg-purple-800 p-2 items-center portal'
                         onClick={() => toogleCollapsed(false)}
                     >
-                        <img className='calavera' src="/public/imagenes/calavera.svg" alt="calavera" />
+                        <img className='calavera' src="imagenes/calavera.svg" alt="calavera" />
                     </button>
                 </>
             ) : (
